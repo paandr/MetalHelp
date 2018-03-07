@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_armatura"
+            android:title="@string/type_armatura"></item>
+        <item
+            android:id="@+id/nav_krug"
+            android:title="@string/type_krug"></item>
+        <item
+            android:id="@+id/nav_list"
+            android:title="@string/type_list"></item>
+        <item
+            android:id="@+id/nav_truba_profilnaya"
+            android:title="@string/type_truba_profilnaya"></item>
+        <item
+            android:id="@+id/nav_kvadrat"
+            android:title="@string/type_kvadrat"></item>
+    </group>
+
+</menu>

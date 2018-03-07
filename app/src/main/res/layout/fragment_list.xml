@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmail.gorbaserver.metalhelp.tabletheory.ListFragment">
+
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/tbColdWarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cold_warm_list"
+            android:textOn="@string/cold_warm_list"
+            android:textOff="@string/cold_warm_list"
+            />
+
+        <ToggleButton
+            android:id="@+id/tbOtsynkovany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/otsynkovany_list"
+            android:textOn="@string/otsynkovany_list"
+            android:textOff="@string/otsynkovany_list"
+            />
+
+        <ToggleButton
+
+            android:id="@+id/tbRifleny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rifleny_list"
+            android:textOn="@string/rifleny_list"
+            android:textOff="@string/rifleny_list"
+            />
+    </LinearLayout>
+
+    <include android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/header"
+        android:layout_below="@id/llButtons"
+        layout="@layout/header_thickness_size_weight"/>
+
+    <ListView
+        android:id="@+id/lvList"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</RelativeLayout>

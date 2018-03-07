@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MetalHelp</string>
+    <string name="main_menu_table">Таблица теоретического веса</string>
+
+    <string name="test">test</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_table_theory">TableTheoryActivity</string>
+
+
+    <string name="table_theory_hello">Выберите в меню интересующий Вас вид металлопроката</string>
+    <string name="weight_1_m">Вес 1м (кг)</string>
+    <string name="name">Название</string>
+    <string name="thickness_mm">Толщина, мм</string>
+    <string name="diameter_mm">Диаметр, мм</string>
+    <string name="size_sm">Размер, см</string>
+    <string name="size_mm">Размер, мм</string>
+    <string name="size_mm_x_mm_x_mm">Размер, мм Х мм Х мм</string>
+    <string name="weight_in_sheet_kg">Вес листа, кг</string>
+    <string name="weight_kg">Вес, кг</string>
+    <string name="meter_in_tonne">метр/тона</string>
+    <string name="length_sm">Длина, см</string>
+    <string name="length_m">Длина, м</string>
+
+    <string name="title_activity_truba">TrubaActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="type_armatura">Арматура</string>
+    <string name="type_krug">Круг</string>
+
+    <string name="type_list">Лист</string>
+    <string name="type_list_stalnoy">Лист стальной</string>
+    <string name="type_list_otsynkovany">Лист оцинкованный</string>
+    <string name="type_list_rifleny">Лист рифленый</string>
+    <string name="cold_warm_list">Холод./горяч.</string>
+    <string name="otsynkovany_list">Оцинкованный</string>
+    <string name="rifleny_list">Рифленый</string>
+
+
+    <string name="type_kvadrat">Квадрат</string>
+
+    <string name="type_truba_kruglaya">Труба круглая</string>
+    <string name="type_truba_profilnaya">Труба профильная</string>
+    <string name="type_truba_kvadratnaya">Труба квадратная</string>
+    <string name="type_truba_pryamougolnaya">Труба прямоугольная</string>
+    <string name="kvadratnaya">Квадратная</string>
+    <string name="pryamougolnaya">Прямоугольная</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_menu_calculator">Калькулятор</string>
+    <string name="title_activity_calculator">CalculatorActivity</string>
+
+
+    <string name="calc_truba_kruglaya_header">Введите данные \"Наружный диаметр\",\"Толщина стенки\",\"Длина\" для получения теор. веса</string>
+    <string name="calc_truba_kvadratnaya_header">Выберите вариант конвертации, введите данные \"Размер\",\"Длина\" или \"Вес\" для получения теор. веса</string>
+    <string name="calc_list_header">Введите данные \"Размер\",\"Количество\" для получения теор. веса</string>
+    <string name="calc_krug_header">Выберите вариант конвертации, введите данные \"Наружный диаметр\",\"Длина\" или \"Вес\" для получения результата</string>
+    <string name="calc_kvadrat_header">Выберите вариант конвертации, введите данные \"Толщина\",\"Длина\" или \"Вес\" для получения результата</string>
+
+    <string name="ok">Ok</string>
+    <string name="attention">Внимание</string>
+    <string name="operations">Операции</string>
+    <string name="analytics">Аналитика</string>
+    <string name="organizer">Органайзер</string>
+    <string name="m_to_kg"><![CDATA[М -> Кг]]></string>
+    <string name="kg_to_m"><![CDATA[Кг -> М]]></string>
+    <string name="quantity_sht">Количество, шт.</string>
+
+    <string name="current">Текущие</string>
+    <string name="past">Прошлые</string>
+    <string name="future">Будущие</string>
+
+    <string name="title_activity_test">TestActivity</string>
+    <string name="save">Сохранить</string>
+
+</resources>

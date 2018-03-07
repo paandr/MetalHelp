@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/underline"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/ItemTableTheory"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        style="@style/ItemTableTheory"
+        android:text="@string/weight_1_m" />
+
+    <TextView
+        android:id="@+id/tvMeterInTonne"
+        style="@style/ItemTableTheory"
+        android:text="@string/meter_in_tonne" />
+
+</LinearLayout>

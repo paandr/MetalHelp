@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#336a85</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2eb5f6</color>
+
+    <color name="colorMainMenuButtonStart">#e0e0ebeb</color>
+    <color name="colorMainMenuButtonEnd">#e085adad</color>
+    <color name="colorMainMenuButtonTextColor">#000033</color>
+
+    <color name="colorRed">#ff0008</color>
+    <color name="colorYellow">#f0fc00</color>
+    <color name="colorGreen">#05bd1e</color>
+
+    <color name="colorPrimarysss">#7cb3ce</color>
+</resources>

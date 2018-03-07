@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmail.gorbaserver.metalhelp.tabletheory.TrubaProfilFragment">
+
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/tbKvadratnaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/kvadratnaya"
+            android:textOff="@string/kvadratnaya"
+            android:textOn="@string/kvadratnaya" />
+
+        <ToggleButton
+            android:id="@+id/tbPryamougolnaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pryamougolnaya"
+            android:textOff="@string/pryamougolnaya"
+            android:textOn="@string/pryamougolnaya" />
+
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llButtons"
+        android:id="@+id/header"
+        layout="@layout/header_name_weight_meter" />
+
+    <ListView
+        android:id="@+id/lvTrubaProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"></ListView>
+
+</RelativeLayout>
